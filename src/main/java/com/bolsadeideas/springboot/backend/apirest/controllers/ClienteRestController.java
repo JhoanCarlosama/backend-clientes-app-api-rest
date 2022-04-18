@@ -26,7 +26,7 @@ import java.net.MalformedURLException;
 import java.util.*;
 import java.util.stream.Collectors;
 
-@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:80", "http://localhost"})
+@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:80", "http://localhost", "https://clientes-app-angular-7cfe0.web.app"})
 @RestController
 @RequestMapping("/api")
 public class ClienteRestController {
